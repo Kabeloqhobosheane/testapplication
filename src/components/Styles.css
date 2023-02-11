@@ -1,0 +1,28 @@
+.home{
+    background-color: #ffffff;
+    padding-top: 2%;
+    padding-bottom: 2%;   
+    border-radius: 35px;
+}
+
+.btn-reg{
+    border-radius: 35px;
+    background-color: #cad7dd;
+}
+
+.btn-mem{
+    border-radius: 35px;
+    background-color: #373d40;
+}
+
+.btn-save{
+    background-color: #49c849;
+}
+
+.mywolrd{
+    background-color: #ff9200;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    align-items: middle;  
+    
+}

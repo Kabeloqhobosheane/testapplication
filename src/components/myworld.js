@@ -1,7 +1,8 @@
+import './Styles.css';
 const myworld = () => {
     return ( 
         
-    <div class="col-md-5 text-center  align-items-center ">
+    <div class="col-md-7 text-center  align-items-center mywolrd">
         <div class="d-flex flex-column justify-content-between bd-highlight mb-3">
                     <div class="p-2 bd-highlight">
                       <h1>My world today</h1>

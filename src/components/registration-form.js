@@ -2,13 +2,13 @@ import venussvg from './venus-symbol.svg';
 import marssvg from './mars-symbol.svg';
 import cardsvg from './card.svg';
 import cardwhitesvg from './card--white.svg';
+import './Styles.css';
 const registrationform = () => {
     return ( 
-        
-        <div class="container">
+        <div class="col-md-7 text-center home">
+                  
                     <form >
-                        
-                      <div class="d-grid gap-2 align-items-center d-md-block justify-content-md-middle">
+                      <div class="d-grid gap-2 align-items-center d-md-block ">
                       <div class="mb-3 row">
                         <label for="name" class="col-sm-2 col-form-label">Name</label>
                         <div class="col-sm-7">
@@ -18,12 +18,12 @@ const registrationform = () => {
                       <div class="mb-3 row">
                         <label for="gender" class="col-sm-2 col-form-label">Gender</label>
                         <div class="col-sm-7">
-                        <button class="btn btn-secondary text-align-left">
+                        <button class="btn btn-reg">
                         <img src={venussvg}/> </button> Male
                         
-                        <button class="btn">    </button>
+                        <button class="btn ">    </button>
 
-                        <button class="btn btn-primary">
+                        <button class="btn btn-reg">
                         <img src={marssvg}/> </button>Female
                         
                         </div>
@@ -54,28 +54,26 @@ const registrationform = () => {
                       </div>
                       <div class="mb-3 row ">
                         <label for="membership" class="col-sm-2 col-form-label">Membership</label>
-                        <div class="col-sm-7 ">
-                        <button class="btn btn-secondary">
+                        <div class="col-sm-7">
+                        <button class="btn btn-mem">
                         <img src={cardwhitesvg}/>
                         </button> Classic
-                        <button class="btn btn-primary">
+                        <button class="btn btn-reg">
                         <img src={cardsvg}/>
                         </button> Silver
-                        <button class="btn btn-primary">
+                        <button class="btn btn-reg">
                         <img src={cardsvg}/>
                         </button> Gold
                         </div>
                       </div>
-                      <div class="d-grid gap-2 d-md-block">
+                      <div class="col-12">
                         <button class="btn btn-light me-md-2" type="cancel">Cancel</button>
-                        <button class="btn btn-primary" type="submit">Save</button>
+                        <button class="btn btn-save" type="submit">Save</button>
                       </div>
                       
                       </div>
-                      
                     </form>
                     </div>
-                   
 
      );
 }
