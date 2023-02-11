@@ -28,6 +28,18 @@
   color: #61dafb;
 }
 
+.roomfac {
+  display: flex;
+  widtH: 60%;
+  margin: auto;
+}
+
+/* .card {
+  border-radius: 35px;
+  border: 5px solid red;
+  
+} */
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
